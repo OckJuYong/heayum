@@ -10,6 +10,8 @@ import Firstload from "./component/Firstload";
 import Nonlogin from "./component/Nonlogin";
 import Statistic from "./component/Statistic";
 
+import Diary from "./component/Diary";
+
 function App() {
   return (
     <>
@@ -21,6 +23,7 @@ function App() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/setting" element={<Setting />} />
         <Route path="/to" element={<Toggle />} />
+        <Route path="/Diary" element={<Diary />} />
       </Routes>
     </>
   );
