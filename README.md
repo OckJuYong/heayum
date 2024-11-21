@@ -64,7 +64,8 @@
 <hr/>
 
 <h3>3-1. 데이터베이스 설계</h3>
-<img src="https://github.com/OckJuYong/heayum/issues/1#issue-2677605160" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+![database](https://github.com/user-attachments/assets/cc49499f-94e7-430d-9a3f-5dadfe073c55)
+
 
 <h3>3-2. 시스템 설계도</h3>
 <img src="https://private-user-images.githubusercontent.com/128788634/388306159-4bd661be-a5c3-4304-ae11-aa00f276ee4c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzIxNDg0ODUsIm5iZiI6MTczMjE0ODE4NSwicGF0aCI6Ii8xMjg3ODg2MzQvMzg4MzA2MTU5LTRiZDY2MWJlLWE1YzMtNDMwNC1hZTExLWFhMDBmMjc2ZWU0Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyMVQwMDE2MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03Mjc1Y2QxOGIyZGU3YWMyYjhiYmY2ZjVhNTNlNWNhYjFiYzIyZmMwYTE1MDU2ZDFlOTZlMmQxZGUxMzEyNjYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.z2MagisnIJLH8zSNICscRASW2kgrmkLYLfAA4ADqEr8" alt="시스템 설계도" style="width:100%; margin-top:10px;">
