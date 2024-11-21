@@ -64,6 +64,7 @@
 <hr/>
 
 <h3>3-1. 데이터베이스 설계</h3>
+![이미지 설명](https://github.com/OckJuYong/heayum/issues/1#issue-2677605160)
 <img src="https://private-user-images.githubusercontent.com/128788634/388307609-5c79a1b0-a2ab-41a4-b325-e4dfafac36ca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzIxNDg3OTAsIm5iZiI6MTczMjE0ODQ5MCwicGF0aCI6Ii8xMjg3ODg2MzQvMzg4MzA3NjA5LTVjNzlhMWIwLWEyYWItNDFhNC1iMzI1LWU0ZGZhZmFjMzZjYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyMVQwMDIxMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YzI2M2Q3M2FhNjZiMDY1ZDRiOTdhZWE0MWI0OTU4ZTAyM2I0ZDY5MjNlYmQyNGM0ZjZlNTQzZGFmMWY5NDZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DpEl4rw0oOJz-x77qFBq4ZoUsLLXuAzEd2QmocYaFPw" alt="데이터베이스 설계도" style="width:100%; margin-top:10px;">
 
 <P>데이터베이스 설계에서 Book 테이블은 사용자가 쓰는 일기를 저장할 테이블이며, Library 테이블은 Book을 모아둘 테이블이다. User와 Library는 1:n 관계, Library와 Book은 1:n 관계, Library와 Statistics는 1:n 관계를 가진다. Library는 Book이 5개가 될 때 새로운 행이 생기고 새로운 Book을 받을 수 있다. 동시에 Statistics의 gpt_comment 컬럼에 GPT API를 이용한 심리분석 코멘트인 통계 코멘트가 저장되고, 새로운 행이 생긴다. Book 테이블에는 DALL-E로 생성된 이미지 URL이 저장되고, 사용자의 한 줄 코멘트인 comment, 대화했던 전체 내용이 detail_story에 저장된다. 또한, GPT API로 생성된 감정을 emotion에 저장한다. Statistics는 book이 하나씩 저장될 때마다 저장된 emotion을 이용하여 happiness, angry, sadness, joy에 맞는 감정을 하나 증가시키며, 저장된 감정들의 값을 사용자에게 통계로 보여준다.</P>
