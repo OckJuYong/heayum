@@ -5,90 +5,100 @@
 <hr/>
 
 <h3>1. 사용 기술스택 및 팀 구성</h3>
+
+<h4>1-1. 사용 기술스택</h4>
 <ul>
-  <li><strong>사용 기술스택</strong>:
-    <ul>
-      <li>React: 사용자 인터페이스(UI) 개발을 위한 컴포넌트 기반의 프론트엔드 라이브러리</li>
-      <li>OpenAI API: ChatGPT를 활용한 대화형 기능 및 DALL·E를 이용한 이미지 생성</li>
-      <li>Spring: 서버와의 데이터 통신 및 API 개발을 위한 백엔드 프레임워크</li>
-      <li>PWA: 모바일 웹 환경에서도 네이티브 앱과 같은 경험을 제공하는 Progressive Web Application</li>
-      <li>Module CSS: 효율적이고 유지보수가 쉬운 컴포넌트 스타일링</li>
-    </ul>
-  </li>
-  <li><strong>팀 구성</strong>:
-    <ul>
-      <li>백엔드 개발자: 채성수 (API 설계 및 데이터 처리 담당)</li>
-      <li>백엔드 개발자: 육종범 (서버 최적화 및 데이터베이스 설계)</li>
-      <li>WEB 및 안드로이드 프론트엔드 개발자: 옥주용 (메인 UI 및 UX 설계)</li>
-      <li>WEB 및 안드로이드 프론트엔드 개발자: 김영권 (기능 구현 및 디버깅 담당)</li>
-      <li>IOS 개발자: 길지훈 (iOS 플랫폼 연동 및 최적화)</li>
-    </ul>
-  </li>
+  <li><strong>React:</strong> 컴포넌트 기반의 사용자 인터페이스(UI) 개발.</li>
+  <li><strong>OpenAI API:</strong> ChatGPT를 활용한 대화형 기능과 DALL·E를 이용한 이미지 생성.</li>
+  <li><strong>Spring:</strong> 서버와의 데이터 통신 및 API 개발.</li>
+  <li><strong>PWA:</strong> 모바일 환경에서 네이티브 앱과 같은 경험 제공.</li>
+  <li><strong>Module CSS:</strong> 컴포넌트 스타일링을 효율적이고 유지보수 가능하게 구현.</li>
+</ul>
+
+<h4>1-2. 팀 구성</h4>
+<ul>
+  <li>백엔드 개발자: 채성수 (API 설계 및 데이터 처리)</li>
+  <li>백엔드 개발자: 육종범 (서버 최적화 및 데이터베이스 설계)</li>
+  <li>WEB 및 안드로이드 프론트엔드 개발자: 옥주용 (UI/UX 설계)</li>
+  <li>WEB 및 안드로이드 프론트엔드 개발자: 김영권 (기능 구현 및 디버깅)</li>
+  <li>IOS 개발자: 길지훈 (iOS 플랫폼 연동 및 최적화)</li>
 </ul>
 
 <hr/>
 
 <h3>2. 현재 상황 및 문제제기</h3>
-<p><strong>일기 작성의 중요성:</strong> 일기를 쓰는 것은 단순한 기록 활동을 넘어, 정신건강과 웰빙을 증진시키는 데 매우 중요한 역할을 합니다. 연구에 따르면 일기를 쓰는 사람들은 스트레스와 불안을 더 효과적으로 관리하며, 자신의 감정을 잘 이해하고 조절할 수 있습니다.</p>
 
-<p>그러나 실제로 현대 사회에서 일기를 쓰는 사람의 비율은 매우 낮습니다. 그 이유는 다음과 같습니다:</p>
+<p><strong>일기 작성의 중요성:</strong> 연구에 따르면 일기는 스트레스와 불안을 관리하고 감정을 조절하며, 자아 성찰의 기회를 제공합니다. 그러나 현대인들이 일기를 쓰는 비율은 매우 낮습니다.</p>
+
+<h4>문제점:</h4>
 <ul>
-  <li>일기를 작성할 시간의 부족: 바쁜 일상에서 일기 쓰기가 우선순위에서 밀림</li>
-  <li>꾸준한 습관 형성의 어려움: 일기를 쓰는 습관을 들이는 것이 쉽지 않음</li>
-  <li>표현의 어려움: 자신의 생각과 감정을 글로 옮기는 것에 대한 부담</li>
+  <li><strong>시간 부족:</strong> 바쁜 일상 속에서 일기를 쓸 여유가 부족함.</li>
+  <li><strong>습관화 어려움:</strong> 일기를 꾸준히 작성하는 것이 쉽지 않음.</li>
+  <li><strong>표현의 부담:</strong> 자신의 감정을 글로 옮기는 데 어려움을 느낌.</li>
 </ul>
 
-<p><strong>현실적 문제:</strong> 이러한 이유들로 인해 많은 사람들이 자신의 감정을 효과적으로 관리하지 못하고, 이는 장기적으로 스트레스와 불안 수준을 높이는 결과로 이어질 수 있습니다. 특히 디지털 환경에서 이러한 문제를 해결할 수 있는 도구가 부족한 상황입니다.</p>
-
-<p><strong>HyeEum의 솔루션:</strong></p>
+<h4>HyeEum의 솔루션:</h4>
 <ul>
-  <li>ChatGPT를 활용한 대화형 인터페이스로 사용자에게 친근하고 자연스러운 일기 작성 경험 제공</li>
-  <li>DALL·E API를 통해 하루의 일상을 시각적으로 표현, 기록에 재미와 창의성을 더함</li>
-  <li>사용자의 감정을 분석하고 수치화하여 정신건강 상태를 직관적으로 파악할 수 있는 기능 제공</li>
+  <li><strong>대화형 일기 작성:</strong> ChatGPT를 활용하여 사용자에게 자연스러운 대화 경험 제공.</li>
+  <li><strong>시각적 표현:</strong> DALL·E API를 통해 하루를 이미지로 표현.</li>
+  <li><strong>감정 분석:</strong> 사용자의 감정을 수치화하고 시각화하여 정신 건강 상태를 파악.</li>
 </ul>
-<p>이러한 솔루션을 통해 HyeEum은 사용자가 일기 작성의 중요성을 체감하고, 지속 가능한 기록 습관을 들일 수 있도록 돕습니다.</p>
 
 <hr/>
 
 <h3>3. 기술 개발에 필요했던 요구사항</h3>
-<p>HyeEum 프로젝트를 성공적으로 구현하기 위해 다음과 같은 기술적 요구사항을 충족해야 했습니다:</p>
+
+<h4>3-1. 주요 기술적 요구사항</h4>
 <ul>
-  <li><strong>대화형 인터페이스:</strong> ChatGPT API를 활용하여 자연스러운 대화 흐름을 지원하며, 사용자의 피드백을 즉각적으로 반영할 수 있는 구조 설계</li>
-  <li><strong>일기 요약 및 시각화:</strong> 사용자가 작성한 데이터를 요약하고 이를 기반으로 의미 있는 이미지를 생성하기 위해 DALL·E API를 효율적으로 연동</li>
-  <li><strong>감정 분석 알고리즘:</strong> 사용자의 감정 데이터를 분석하고 이를 시각화하기 위해 감정 스코어링 및 데이터 처리 알고리즘 개발</li>
-  <li><strong>PWA 구현:</strong> 모바일 및 데스크톱 환경 모두에서 원활하게 작동하도록 Progressive Web Application 구조 설계</li>
+  <li><strong>대화형 인터페이스:</strong> ChatGPT API를 활용하여 자연스러운 대화 흐름 제공.</li>
+  <li><strong>일기 요약 및 시각화:</strong> DALL·E API를 통해 일기를 이미지로 표현.</li>
+  <li><strong>감정 분석 알고리즘:</strong> 사용자 감정을 분석하고 통계를 시각화.</li>
+  <li><strong>PWA 구현:</strong> 다양한 디바이스에서 네이티브 앱과 유사한 사용자 경험 제공.</li>
 </ul>
 
-<p>이외에도 사용자 친화적인 UI/UX 설계와 API 통신 성능 최적화 등 다양한 세부적인 요구사항이 포함되었습니다.</p>
+<h4>3-2. 데이터베이스 설계</h4>
+<p>
+데이터베이스는 <strong>사용자(User)</strong>, <strong>일기(Book)</strong>, <strong>라이브러리(Library)</strong>, <strong>통계(Statistics)</strong>로 구성됩니다.
+</p>
+<ul>
+  <li><strong>Library:</strong> 5개의 Book을 모아 저장하며, GPT API를 통해 통계 코멘트를 생성.</li>
+  <li><strong>Book:</strong> 사용자가 작성한 일기 데이터, GPT API를 통한 감정(emotion), DALL·E로 생성된 이미지 URL 저장.</li>
+  <li><strong>Statistics:</strong> 감정 데이터를 기반으로 사용자의 심리 상태를 시각화.</li>
+</ul>
+
+<h4>3-3. 시스템 설계도</h4>
+<img src="./혜음 시스템 설계도.png" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+<p>
+백엔드는 HTTP 요청을 처리하며, 데이터는 Sqlite 데이터베이스에서 관리됩니다. OpenAI GPT API를 활용하여 질문 생성, 응답 처리, 통계 분석을 수행합니다. 프론트엔드는 CSR(Client Side Rendering) 방식으로 구성되어 사용자 경험을 강화합니다.
+</p>
 
 <hr/>
 
-<h3>3-1. 데이터베이스 설계</h3>
-<img src="./image03.png" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+<h3>4. 앱 화면 및 주요 기능</h3>
 
-<P>데이터베이스 설계에서 Book 테이블은 사용자가 쓰는 일기를 저장할 테이블이며, Library 테이블은 Book을 모아둘 테이블이다. User와 Library는 1:n 관계, Library와 Book은 1:n 관계, Library와 Statistics는 1:n 관계를 가진다. Library는 Book이 5개가 될 때 새로운 행이 생기고 새로운 Book을 받을 수 있다. 동시에 Statistics의 gpt_comment 컬럼에 GPT API를 이용한 심리분석 코멘트인 통계 코멘트가 저장되고, 새로운 행이 생긴다. Book 테이블에는 DALL-E로 생성된 이미지 URL이 저장되고, 사용자의 한 줄 코멘트인 comment, 대화했던 전체 내용이 detail_story에 저장된다. 또한, GPT API로 생성된 감정을 emotion에 저장한다. Statistics는 book이 하나씩 저장될 때마다 저장된 emotion을 이용하여 happiness, angry, sadness, joy에 맞는 감정을 하나 증가시키며, 저장된 감정들의 값을 사용자에게 통계로 보여준다.</P>
+<h4>4-1. 초기 화면</h4>
+<img src="./image08.png" alt="초기 화면" style="width:100%; margin-top:10px;">
+<p>앱 설치 시 초기 설정 화면이 표시됩니다. 데이터베이스 조회를 통해 사용자의 존재 여부를 확인하여 첫 화면을 결정합니다.</p>
 
-<h3>3-2. 시스템 설계도</h3>
-<img src="./혜음 시스템 설계도.png" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+<h4>4-2. 메인 페이지</h4>
+<img src="./image09.png" alt="메인 페이지" style="width:100%; margin-top:10px;">
+<p>사용자가 기록한 일기와 생성된 이미지를 한눈에 볼 수 있습니다. 플러스 버튼을 눌러 새로운 일기를 작성할 수 있습니다.</p>
 
-<p>백엔드는 프론트엔드와 연결되는 API를 제공한다. 프론트엔드는 백엔드의 API에 HTTP Request를 보내 데이터를 클라이언트  페이지에 바인딩하여 사용자에게 보여주는 기술인 CSR(Client Side Rendering) 방식을 이용해 페이지를 구성하였다. 백엔드에서는 프론트엔드의 HTTP Request에 맞게 Sqlite 데이터베이스를 이용하여 데이터를 Create, Read, Update, Delete 한다. 또한 AI가 필요한 기능의 경우 GPT API와 통신하여 원하는 질문을 넣고 질문의 응답을 받아 활용한다. 
-  모든 GPT API의 사용은 OpenAI 라이브러리를 사용하여 HTTP 요청을 하며, 발급받은 apikey를 넣어 생성된 client에 model, message, max_token, temperature 값을 넣어 요청을 보낸다. model은 gpt의 언어 모델(gpt-4, gpt-3.5-turbo)을 결정하며, max_token은 응답 생성 시 응답의 길이를 조절하고, temperature를 이용해 응답을 창의적으로 할지, 보수적으로 할지 정한다. 해당 앱에서는 gpt-4모델을 사용하였으며, max_token은 너무 긴 응답을 하지 못하게 200으로 정하고, temperature 값을 1로 설정하여 창의적인 답을 요구했다. message에는 role과 content를 지정할 수 있으며, role에 ‘user’라는 값을 넣어 사용자가 보낸 메시지임을 표시한다. content에는 실질적으로 질문할 내용이 들어가며, text 값에 넣어 질문을 요청하며, 요청 후 응답 변수의 메시지를 추출하여 반환한다.</p>
+<h4>4-3. 일기 작성 플로우</h4>
+<img src="./image10.png" alt="일기 작성" style="width:100%; margin-top:10px;">
+<p>사용자의 성향과 기존 데이터를 기반으로 질문을 생성하여 GPT API에 요청합니다. 사용자는 응답을 통해 AI와 상호작용하며 일기를 완성합니다.</p>
 
-<img src="./image08.png" alt="페이지 1" style="width:100%; margin-top:10px;">
+<h4>4-4. 통계 페이지</h4>
+<img src="./image11.png" alt="통계 페이지" style="width:100%; margin-top:10px;">
+<p>사용자의 감정을 바탕으로 통계를 시각화합니다. 5회분의 일기를 기반으로 GPT API를 통해 심리 분석 코멘트를 제공합니다.</p>
 
-<img src="./image09.png" alt="페이지 2" style="width:100%; margin-top:10px;">
+<hr/>
 
-<img src="./image10.png" alt="페이지 3" style="width:100%; margin-top:10px;">
-
-<img src="./image11.png" alt="페이지 4" style="width:100%; margin-top:10px;">
-
-<h3>4. 결과물</h3>
-<p>HyeEum은 사용자가 일기를 더 쉽고 재미있게 작성하며, 자신의 감정과 정신 상태를 직관적으로 이해할 수 있도록 돕는 도구입니다. 주요 결과물은 다음과 같습니다:</p>
+<h3>5. 결과물</h3>
 <ul>
-  <li><strong>대화형 일기 작성 UI:</strong> React를 기반으로 사용자 경험을 최적화한 직관적인 인터페이스</li>
-  <li><strong>일기 요약 및 시각적 표현:</strong> ChatGPT 및 DALL·E API를 통해 생성된 요약과 이미지</li>
-  <li><strong>감정 분석 및 시각화:</strong> 사용자의 감정을 수치화하고 이를 기반으로 한 분석 결과 제공</li>
-  <li><strong>모바일 최적화:</strong> PWA 구조를 통해 어디서나 쉽게 접근 가능한 환경 제공</li>
+  <li><strong>대화형 일기 작성 UI:</strong> React 기반의 사용자 친화적 인터페이스.</li>
+  <li><strong>일기 요약 및 시각적 표현:</strong> ChatGPT 및 DALL·E API를 통해 생성된 일기 요약과 이미지.</li>
+  <li><strong>감정 분석 및 통계:</strong> 사용자의 심리 데이터를 분석하고 시각화.</li>
+  <li><strong>모바일 최적화:</strong> PWA 기술을 활용한 접근성 강화.</li>
 </ul>
-
-<p>HyeEum은 단순한 기록 도구를 넘어, 사용자가 자신의 감정을 관리하고 긍정적인 정신 건강을 유지할 수 있도록 지원하는 혁신적인 솔루션으로 자리 잡았습니다.</p>
+<p>HyeEum은 단순한 기록 도구를 넘어, 사용자가 자신의 감정을 관리하고 긍정적인 정신 건강을 유지할 수 있도록 돕는 혁신적인 솔루션입니다.</p>
