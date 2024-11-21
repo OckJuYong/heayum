@@ -63,6 +63,13 @@
 
 <hr/>
 
+<h3>3-1. 데이터베이스 설계</h3>
+<img src="https://github.com/OckJuYong/heayum/issues/1#issue-2677605160" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+
+<h3>3-2. 시스템 설계도</h3>
+<img src="https://github.com/OckJuYong/heayum/issues/1#issue-2677605160" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+
+
 <h3>4. 결과물</h3>
 <p>HyeEum은 사용자가 일기를 더 쉽고 재미있게 작성하며, 자신의 감정과 정신 상태를 직관적으로 이해할 수 있도록 돕는 도구입니다. 주요 결과물은 다음과 같습니다:</p>
 <ul>
