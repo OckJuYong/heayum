@@ -68,7 +68,7 @@
 </ul>
 
 <h4>3-3. 시스템 설계도</h4>
-<img src="./혜윰 시스템 설계도.png" alt="시스템 설계도" style="width:100%; margin-top:10px;">
+<img src="./image04.png" alt="시스템 설계도" style="width:100%; margin-top:10px;">
 <p>
 백엔드는 HTTP 요청을 처리하며, 데이터는 Sqlite 데이터베이스에서 관리됩니다. OpenAI GPT API를 활용하여 질문 생성, 응답 처리, 통계 분석을 수행합니다. 프론트엔드는 CSR(Client Side Rendering) 방식으로 구성되어 사용자 경험을 강화합니다.
 </p>
