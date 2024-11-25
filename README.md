@@ -10,7 +10,7 @@
 <ul>
   <li><strong>React:</strong> 컴포넌트 기반의 사용자 인터페이스(UI) 개발.</li>
   <li><strong>OpenAI API:</strong> ChatGPT를 활용한 대화형 기능과 DALL·E를 이용한 이미지 생성.</li>
-  <li><strong>Spring:</strong> 서버와의 데이터 통신 및 API 개발.</li>
+  <li><strong>Django:</strong> 서버와의 데이터 통신 및 API 개발.</li>
   <li><strong>PWA:</strong> 모바일 환경에서 네이티브 앱과 같은 경험 제공.</li>
   <li><strong>Module CSS:</strong> 컴포넌트 스타일링을 효율적이고 유지보수 가능하게 구현.</li>
 </ul>
